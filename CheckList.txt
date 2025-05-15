@@ -23,6 +23,6 @@ DWDM
 
 Unit 1 Data warehouse basic concepts
 Unit 2 Data Understanding and Pre-processing
-Unit 3 Introduction to Data Mining ✔ - till Decision Trees
-Unit 4 Probability and Classification
+Unit 3 Introduction to Data Mining ✅
+Unit 4 Probability and Classification 
 Unit 5 Apriori Algorithm
