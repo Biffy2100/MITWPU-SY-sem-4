@@ -34,6 +34,41 @@
     iii) Association Rules
 28. Explain Association Rule Mining with an example.
 29. Explain the Apriori Algorithm with an example.
+29. Explain the Apriori Algorithm with an example.
+The Apriori Algorithm is a popular data mining technique used to find frequent itemsets and generate association rules in transactional databases. 
+It works by iteratively identifying itemsets that appear together frequently and using the "apriori property"—if an itemset is frequent, all its subsets must also be frequent.
+
+Example:
+Consider the following transactions:
+T1: {Milk, Bread}
+T2: {Milk, Diaper, Beer, Bread}
+T3: {Milk, Diaper, Beer, Cola}
+T4: {Diaper, Beer, Bread}
+T5: {Milk, Diaper, Bread, Beer}
+
+Step 1: Find frequent 1-itemsets (items that appear in at least 3 transactions, min support = 3):
+- Milk (4)
+, Bread (4)
+, Diaper (4)
+, Beer (4)
+, Cola (1)
+
+Step 2: Generate frequent 2-itemsets:
+- {Milk, Bread} (3)
+, {Milk, Diaper} (3)
+, {Milk, Beer} (3)
+, {Bread, Diaper} (3)
+, {Bread, Beer} (3)
+, {Diaper, Beer} (4)
+
+Step 3: Generate frequent 3-itemsets:
+- {Milk, Bread, Diaper} (3)
+, {Milk, Diaper, Beer} (3)
+, {Bread, Diaper, Beer} (3)
+
+Step 4: No frequent 4-itemsets (none appear in at least 3 transactions).
+
+The Apriori Algorithm helps identify combinations of items that frequently occur together, which can be used for market basket analysis and recommendation systems.
 30. Explain the following concepts:
     - Finding Frequent Itemsets by Confined Candidate Generation
     - Generating Association Rules from Frequent Itemsets using the Apriori Algorithm (with an example).

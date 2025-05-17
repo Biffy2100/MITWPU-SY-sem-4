@@ -15,7 +15,7 @@ Unit 5 Ip addressing
 BML
 Unit 1 Introduction to machine learning ✅
 Unit 2 Supervised Learning
-Unit 3 Unsupervised Learning
+Unit 3 Unsupervised Learning ✅
 Unit 4 Dimensionality Reduction Techniques
 Unit 5 Ensemble techniques
 
@@ -25,4 +25,4 @@ Unit 1 Data warehouse basic concepts
 Unit 2 Data Understanding and Pre-processing
 Unit 3 Introduction to Data Mining ✅
 Unit 4 Probability and Classification ✅ (numericals remaining)
-Unit 5 Apriori Algorithm
+Unit 5 Apriori Algorithm ✅ (numericals remaining)
