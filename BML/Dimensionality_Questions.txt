@@ -1,0 +1,154 @@
+Dimensionality Reduction Techniques
+
+---
+
+### 🔹 **Short Answer / Theory Questions**
+
+1. What is dimensionality reduction? Why is it important in machine learning?
+    Dimensionality reduction is the process of reducing the number of features or variables in a dataset while retaining its essential characteristics. 
+    It is important in machine learning because it helps to reduce overfitting, improve model performance, and decrease computational costs. 
+    By eliminating irrelevant or redundant features, dimensionality reduction can lead to simpler models that generalize better to unseen data.
+
+2. Explain the term "curse of dimensionality" with an example.
+        The curse of dimensionality refers to the problem that arises when working with data in high-dimensional spaces.
+    As the number of features (dimensions) increases:
+
+        - The dataset becomes sparser
+        - Computation becomes more complex
+        - The risk of overfitting increases
+        - It becomes harder to visualize and analyze the data
+
+    Eg - data with 2 features vs data with 100 features.
+        To reduce the curse of dimensionality techniques like PCA , LDA or feature selection are used.
+
+3. List any four benefits of dimensionality reduction.
+   - Reduces overfitting by simplifying the model
+   - Improves model performance by removing irrelevant features or redundant features
+   - Decreases computational cost by reducing the number of features
+   - Enhances data visualization by projecting high-dimensional data into lower dimensions
+
+4. Mention any three disadvantages of dimensionality reduction.
+        1. ❌ Loss of Information
+             Important data may be discarded, which can reduce model accuracy.
+
+        2. ❌ Reduced Interpretability
+         New features (like principal components) are often abstract and hard to understand.
+
+        3. ❌ Irreversibility
+         Once reduced, it's difficult to reconstruct the original dataset accurately.
+
+5. What is the difference between feature selection and feature extraction?
+    - **Feature Selection**: Involves selecting a subset of the original features based on certain criteria
+            (e.g., correlation, importance). The original features remain unchanged.
+    - **Feature Extraction**: Involves transforming the original features into a new set of features
+             (e.g., PCA) that captures the essential information in fewer dimensions. The original features are not retained.
+
+---
+
+
+### 🔹 **Explain/Describe Questions**
+
+6. Describe the three main approaches to feature selection.
+#### ✅ **1. Filter Methods**
+
+ **How it works**: Uses statistical techniques to score and rank features based on relevance.
+ **Independent of ML model**.
+ **Common techniques**:
+
+  * Correlation Coefficient
+  * Chi-Square Test
+  * ANOVA
+  * Information Gain
+ **Pros**: Fast, simple, avoids overfitting.
+
+---
+
+#### ✅ **2. Wrapper Methods**
+
+* **How it works**: Uses an ML model to evaluate feature subsets by training the model multiple times.
+* **Model-dependent and computationally expensive**.
+* **Common techniques**:
+
+  * Forward Selection
+  * Backward Elimination
+  * Bi-directional Elimination
+* **Pros**: More accurate than filter methods.
+
+
+#### ✅ **3. Embedded Methods**
+
+* **How it works**: Integrates feature selection as part of the model training process.
+* **Uses model coefficients or importance scores**.
+* **Common techniques**:
+
+  * LASSO (L1 Regularization)
+  * Ridge Regression
+  * Elastic Net
+* **Pros**: Balances speed and accuracy; considers feature interaction.
+
+---
+
+These methods help reduce overfitting, improve accuracy, and enhance model interpretability.
+
+7. Explain the working of filter methods with suitable techniques.
+
+    - **Correlation Coefficient**: Measures the linear relationship between features and the target variable. High correlation indicates relevance.
+    - **Chi-Square Test**: Assesses the independence of categorical features from the target variable. A high chi-square value indicates a strong relationship.
+    - **ANOVA (Analysis of Variance)**: Compares means across multiple groups to determine if at least one group mean is different. 
+                                        Useful for categorical features.
+    - **Information Gain**: Measures the reduction in entropy or uncertainty about the target variable after knowing the feature.
+                             Higher information gain indicates more relevance.
+
+
+8. Describe wrapper methods in detail with an example.
+    Wrapper methods evaluate feature subsets by training a model and assessing its performance. 
+    They use a specific machine learning algorithm to evaluate the quality of the selected features. 
+    The process involves:
+
+    1. **Subset Selection**: Start with an empty set or all features.
+    2. **Model Training**: Train the model using the selected subset.
+    3. **Performance Evaluation**: Evaluate the model's performance using metrics like accuracy, F1-score, etc.
+    4. **Iteration**: Add or remove features based on performance until the optimal subset is found.
+
+    Example: Forward Selection
+        - Start with no features.
+        - Add one feature at a time that improves model performance the most.
+        - Stop when adding more features does not improve performance.    
+9. What are embedded methods? Mention two techniques used under it.
+
+10. Explain Principal Component Analysis (PCA) and its need.
+
+11. Compare Forward Selection and Backward Elimination.
+12. Differentiate between PCA and LDA.
+13. How is Kernel PCA different from standard PCA?
+14. Compare feature selection and feature extraction with one advantage and one disadvantage each.
+
+---
+
+### 🔹 **Application/Use-Case Based**
+
+15. Why would you use dimensionality reduction in a dataset with thousands of features?
+16. A dataset has multicollinearity issues — which dimensionality reduction technique would help and why?
+17. Which technique is more suitable for visualizing high-dimensional data: PCA or t-SNE? Justify your answer.
+
+---
+
+### 🔹 **True/False / MCQ Style**
+
+18. Dimensionality reduction increases overfitting. (True/False)
+19. LASSO is an example of which type of feature selection method?
+
+    * a) Filter
+    * b) Wrapper
+    * c) Embedded
+    * d) Hybrid
+20. Which of the following is not a feature extraction technique?
+
+    * a) PCA
+    * b) Chi-Square Test
+    * c) LDA
+    * d) Autoencoder
+
+---
+
+Would you like me to generate *answers* or *quizzes with solutions* for these as well?
