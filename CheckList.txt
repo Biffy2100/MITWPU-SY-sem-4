@@ -16,8 +16,8 @@ BML
 Unit 1 Introduction to machine learning ✅
 Unit 2 Supervised Learning
 Unit 3 Unsupervised Learning ✅
-Unit 4 Dimensionality Reduction Techniques
-Unit 5 Ensemble techniques
+Unit 4 Dimensionality Reduction Techniques ✔ (Done till approaches of feature selection) 50%
+Unit 5 Ensemble techniques 
 
 DWDM
 

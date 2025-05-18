@@ -115,7 +115,14 @@ These methods help reduce overfitting, improve accuracy, and enhance model inter
         - Add one feature at a time that improves model performance the most.
         - Stop when adding more features does not improve performance.    
 9. What are embedded methods? Mention two techniques used under it.
+    Embedded methods integrate feature selection into the model training process. 
+    They automatically select features based on their importance during model training. 
+    This approach is efficient and considers feature interactions.
 
+    Two techniques used in embedded methods are:
+    - **LASSO (L1 Regularization)**: Adds a penalty term to the loss function, forcing some feature coefficients to be zero, effectively selecting features.
+    - **Ridge Regression**: Similar to LASSO but uses L2 regularization, which shrinks coefficients but does not set them to zero.
+    It helps in multicollinearity.
 10. Explain Principal Component Analysis (PCA) and its need.
 
 11. Compare Forward Selection and Backward Elimination.
