@@ -73,8 +73,29 @@ Bluetooth is a low-power wireless technology for short-range communication.
 - Scatternet: Multiple piconets connected via a bridge device.
 
 13. Define Wi-Fi and its working.
-Answer:
-Wi-Fi is a wireless networking technology that connects devices using radio frequencies and a wireless router to access the internet.
+
+**Definition:**
+Wi-Fi (Wireless Fidelity) is a wireless networking technology that allows devices like smartphones, laptops, 
+and computers to connect to the internet or communicate with each other without physical cables, using radio waves.
+
+### **Working of Wi-Fi:**
+1. **Router or Access Point (AP)**
+   * A router receives internet data via a wired connection (e.g., from a modem).
+   * It converts this data into radio signals.
+
+2. **Transmission**
+   * The router transmits radio signals through antennas using the **IEEE 802.11** standard.
+
+3. **Reception**
+   * Wi-Fi-enabled devices (laptops, phones, etc.) receive the signal using their wireless adapters.
+
+4. **Data Exchange**
+   * Devices send data back to the router using the same wireless medium.
+   * The router forwards this data to the internet.
+
+---
+
+**Note:** Wi-Fi typically operates on **2.4 GHz** and **5 GHz** frequency bands.
 
 14. What is Li-Fi?
 Answer:
@@ -82,12 +103,14 @@ Li-Fi uses visible light communication through LEDs to transmit data. It offers 
 
 15. What is Gi-Fi?
 Answer:
-Gi-Fi is a gigabit wireless technology based on IEEE 802.15.3C standard. It uses the 60 GHz frequency band for high-speed data transfer.
+Gi-Fi is a gigabit wireless technology based on IEEE 802.15.3C standard. 
+It uses the 60 GHz frequency band for high-speed data transfer.
+It is 10 times faster than wifi.
 
 16. What is Wi-MAX? List its applications.
 Answer:
 Wi-MAX (Worldwide Interoperability for Microwave Access) is a wireless broadband technology for long-range internet access. Applications include video streaming, VoIP, and e-learning.
-
+    
 17. What are the applications of wireless networks?
 Answer:
 Wireless networks are used in satellite systems, mobile phones, GPS, Wi-Fi, Bluetooth devices, baby monitors, and security systems.
