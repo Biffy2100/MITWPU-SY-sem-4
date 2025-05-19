@@ -8,16 +8,16 @@ Unit 5 Double, triple integration with applications
 FCN
 Unit 1 Fundamentals of Computer Network 
 Unit 2 Network topologies and Networking devices
-Unit 3 Transmission media ✔ -  till co axial cable
+Unit 3 Transmission media ✔ -  till infrared
 Unit 4 Network reference model and tcp ip fundamentals
 Unit 5 Ip addressing 
 
 BML
 Unit 1 Introduction to machine learning ✅
-Unit 2 Supervised Learning
+Unit 2 Supervised Learning  
 Unit 3 Unsupervised Learning ✅
-Unit 4 Dimensionality Reduction Techniques ✔ (Done till approaches of feature selection) 50%
-Unit 5 Ensemble techniques 
+Unit 4 Dimensionality Reduction Techniques ✅ (PCA numerical remaining)
+Unit 5 Ensemble techniques ✅ 
 
 DWDM
 

@@ -1,0 +1,94 @@
+
+Transmission Media - Theory Questions with Answers
+
+1. What is transmission media?
+Answer:
+Transmission media is the physical path through which data travels from sender to receiver. It can be guided (wired) like twisted pair, coaxial, and fiber optic cables or unguided (wireless) like radio waves, microwaves, and infrared.
+
+2. Differentiate between guided and unguided media.
+Answer:
+Guided media uses physical cables to transmit data, such as twisted pair and fiber optic cables. Unguided media transmits data through air using electromagnetic waves, such as radio and microwave signals.
+
+3. Explain twisted pair cables and their types.
+Answer:
+Twisted pair cables consist of pairs of insulated copper wires twisted together. Types include:
+- Unshielded Twisted Pair (UTP): Used in LANs and telephony.
+- Shielded Twisted Pair (STP): Contains a shielding layer to prevent interference.
+
+4. What is a coaxial cable? List its advantages.
+Answer:
+Coaxial cable consists of a central conductor, insulating layer, metallic shield, and outer jacket. Advantages include:
+- Higher bandwidth than twisted pair
+- Less signal loss
+- Better noise immunity
+- Suitable for analog and digital data
+
+5. Describe the construction of fiber optic cable.
+Answer:
+A fiber optic cable consists of:
+- Core: Carries light signals
+- Cladding: Reflects light back to the core
+- Coating: Protects the fiber
+- Strengthening fibers: Prevent breakage
+- Jacket: Outer protective layer
+
+6. Compare single-mode and multi-mode fiber optics.
+Answer:
+Single-mode fiber allows one light path, used for long-distance, high-speed communication. Multi-mode fiber allows multiple light paths, suitable for shorter distances.
+
+7. What are the advantages and disadvantages of fiber optic cables?
+Answer:
+Advantages:
+- High bandwidth
+- Fast data rates
+- Immune to EMI
+- Secure and reliable
+Disadvantages:
+- Fragile and costly
+- Difficult to install and splice
+
+8. What is unguided media? Explain types of propagation.
+Answer:
+Unguided media transmits data wirelessly using electromagnetic waves. Propagation types:
+- Ground propagation: Along Earth's surface
+- Sky propagation: Reflects off ionosphere
+- Line-of-sight: Straight path between antennas
+
+9. Describe radio waves and their applications.
+Answer:
+Radio waves (3 kHz – 1 GHz) are omnidirectional and used for broadcasting, mobile communication, radar, and GPS.
+
+10. What are microwaves and their applications?
+Answer:
+Microwaves (1 GHz – 300 GHz) are unidirectional and used in satellite communication, mobile phones, and wireless LANs.
+
+11. Explain infrared communication.
+Answer:
+Infrared waves (300 GHz – 400 THz) are used for short-range communication. They require line-of-sight and are not suitable for long distances.
+
+12. What is Bluetooth? Define piconet and scatternet.
+Answer:
+Bluetooth is a low-power wireless technology for short-range communication. 
+- Piconet: One master and up to 7 slave devices.
+- Scatternet: Multiple piconets connected via a bridge device.
+
+13. Define Wi-Fi and its working.
+Answer:
+Wi-Fi is a wireless networking technology that connects devices using radio frequencies and a wireless router to access the internet.
+
+14. What is Li-Fi?
+Answer:
+Li-Fi uses visible light communication through LEDs to transmit data. It offers high speed and is suitable for environments sensitive to radio waves.
+
+15. What is Gi-Fi?
+Answer:
+Gi-Fi is a gigabit wireless technology based on IEEE 802.15.3C standard. It uses the 60 GHz frequency band for high-speed data transfer.
+
+16. What is Wi-MAX? List its applications.
+Answer:
+Wi-MAX (Worldwide Interoperability for Microwave Access) is a wireless broadband technology for long-range internet access. Applications include video streaming, VoIP, and e-learning.
+
+17. What are the applications of wireless networks?
+Answer:
+Wireless networks are used in satellite systems, mobile phones, GPS, Wi-Fi, Bluetooth devices, baby monitors, and security systems.
+
