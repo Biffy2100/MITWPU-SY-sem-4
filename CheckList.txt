@@ -8,8 +8,8 @@ Unit 5 Double, triple integration with applications
 FCN
 Unit 1 Fundamentals of Computer Network 
 Unit 2 Network topologies and Networking devices
-Unit 3 Transmission media ✔ -  till infrared
-Unit 4 Network reference model and tcp ip fundamentals
+Unit 3 Transmission media ✅
+Unit 4 Network reference model and tcp ip fundamentals ✔ - till OSI reference model
 Unit 5 Ip addressing 
 
 BML
