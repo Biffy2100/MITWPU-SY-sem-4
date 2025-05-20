@@ -1,0 +1,83 @@
+### 🔹 **Unit 5: IP Addressing – Full Theory Question Bank**
+
+#### 📘 **Basics of IP Addressing**
+
+1. What is an IP address? Why is it needed?
+2. What are the characteristics of IPv4?
+3. What is the difference between logical and physical addressing?
+
+---
+
+#### 🧱 **IPv4 Structure & Classes**
+
+4. Explain the format of an IPv4 address with an example.
+5. Differentiate between network portion and host portion in an IP address.
+### ✅ **Network Portion vs Host Portion**
+
+| Aspect            | Network Portion                     | Host Portion                                       |
+| ----------------- | ----------------------------------- | -------------------------------------------------- |
+| 1. **Purpose**    | Identifies the **network**          | Identifies the **specific device** on that network |
+| 2. **Defined by** | **Subnet mask** (1s in binary)      | Subnet mask (0s in binary)                         |
+| 3. **Used by**    | **Routers** for packet forwarding   | **End devices** to recognize themselves            |
+| 4. **Same for**   | All devices in the **same network** | Unique for **each device**                         |
+| 5. **Example**    | `192.168.1.0` (in /24)              | `.1`, `.2`, `.3` (host addresses)                  |
+
+---
+
+Let me know if you want an example explained too.
+
+6. What are the five classes of IPv4 addresses? Give their address ranges.
+7. How to determine the class of a given IP address?
+8. How many networks and hosts are supported in each class?
+
+---
+
+#### 🧾 **Special Addresses**
+
+9. What is the purpose of the loopback address?
+10. What are private IP addresses? List their ranges.
+11. What is the role of reserved IP addresses?
+
+---
+
+#### 🧠 **Subnetting & Masks**
+
+12. What is a subnet mask? Why is it used?
+13. How do you calculate the number of subnets and hosts?
+14. What is the role of ANDing in subnetting?
+15. Explain the difference between **network address, first address, last address, and broadcast address** using binary rules.
+16. Define and explain **CIDR (Classless Inter-Domain Routing)**.
+17. What is the advantage of classless addressing over classful addressing?
+
+---
+
+#### 💻 **Calculation-Based Theory**
+
+18. Given an IP address and subnet mask, find the:
+
+* Class
+* Subnet mask
+* Network address
+* First and last usable address
+* Broadcast address
+* Number of hosts and subnets
+
+---
+
+#### 🌐 **IPv6 Concepts**
+
+19. Why was IPv6 introduced? What are its advantages?
+20. Compare IPv4 and IPv6 (at least 5 points).
+21. Explain the structure and representation of an IPv6 address.
+22. Write and abbreviate/unabbreviate IPv6 addresses (examples).
+23. Explain **unicast, multicast, and anycast** in IPv6.
+
+---
+
+#### 📊 **Address Space & Allocation**
+
+24. What is address space in IPv4 and IPv6?
+25. Explain how IPv6 supports a larger address space.
+26. What is the format and use of type prefixes in IPv6?
+
+---

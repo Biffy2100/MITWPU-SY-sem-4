@@ -9,8 +9,10 @@ FCN
 Unit 1 Fundamentals of Computer Network 
 Unit 2 Network topologies and Networking devices
 Unit 3 Transmission media ✅
-Unit 4 Network reference model and tcp ip fundamentals ✔ - till OSI reference model
-Unit 5 Ip addressing 
+Unit 4 Network reference model and tcp ip fundamentals topics not done - (FTP, DHCP, SMTP , TELNET , HTTP , DNS)
+Unit 5 Ip addressing ✅ topics not done - (IPv6 numerical skipped)
+
+
 
 BML
 Unit 1 Introduction to machine learning ✅
