@@ -22,11 +22,11 @@
 | 4. **Same for**   | All devices in the **same network** | Unique for **each device**                         |
 | 5. **Example**    | `192.168.1.0` (in /24)              | `.1`, `.2`, `.3` (host addresses)                  |
 
----
 
-Let me know if you want an example explained too.
 
 6. What are the five classes of IPv4 addresses? Give their address ranges.
+
+
 7. How to determine the class of a given IP address?
 8. How many networks and hosts are supported in each class?
 
@@ -81,3 +81,94 @@ Let me know if you want an example explained too.
 26. What is the format and use of type prefixes in IPv6?
 
 ---
+
+
+Here’s a full list of **numericals (calculation-based questions)** from the **Chapter 5: IP Addressing** PDF you uploaded. I’ve categorized them by **type** to help you practice efficiently:
+
+---
+
+### 🔹 **A. Class Identification / IP Format Errors**
+
+1. Find the error, if any, in the following IPv4 addresses:
+   a) `111.56.045.78`
+   b) `221.32.7.8.20`
+   c) `75.45.301.14`
+   d) `11100010.23.14.67`
+
+2. Find the **class** of the following addresses:
+   a) `227.12.14.87`
+   b) `193.14.56.22`
+   c) `14.23.120.8`
+   d) `1.2.3.4`
+
+---
+
+### 🔹 **B. Binary to Dotted Decimal Conversion**
+
+3. Convert the following IPv4 addresses from binary to dotted decimal:
+   a) `10000001 00001011 00001011 11101111`
+   b) `11000001 10000011 10001011 01101111`
+   c) `11100111 11011011 10011011 01101111`
+   d) `11111001 10011011 11111011 00001111`
+
+---
+
+### 🔹 **C. Network Address & Subnet Calculations**
+
+#### ✳️ Examples with Class and Mask:
+
+4. IP: `120.46.50.95`
+   ➤ Identify network type and **find the network address** (default mask)
+
+5. IP: `192.168.1.18/24`
+   ➤ Identify type of network and **calculate the network address**
+
+6. IP: `172.16.35.123 /20`
+   ➤ Find:
+
+   * Subnet mask
+   * Network Address
+   * Host Address
+
+---
+
+### 🔹 **D. Subnetting Calculation**
+
+7. IP: `192.168.1.1 /25`
+   ➤ Find:
+
+   * Class
+   * Network bits / Host bits
+   * Subnet mask
+   * Host ID
+   * Number of Hosts
+
+8. Based on `192.168.1.0/25` and `192.168.1.128/25`:
+   ➤ Find:
+
+   * First Address
+   * Last Address
+   * Broadcast Address
+   * Number of Hosts
+
+9. IP: `172.16.35.123 /20`
+   ➤ Find:
+
+   * Class
+   * Subnet Mask
+   * First Address
+   * Last Address
+   * Broadcast Address
+
+---
+
+### 🔹 **E. CIDR & Bit-Based Questions**
+
+10. What is the **CIDR notation** of subnet mask `255.255.255.240`?
+    ➤ Answer: `/28`
+
+11. If a company needs **5000 hosts**, which address class should be used? Why CIDR is better?
+
+---
+
+Let me know if you want **solutions** for any specific type or want me to make a **practice worksheet** for you!
