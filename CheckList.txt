@@ -2,8 +2,8 @@ Maths -
 Unit 1 First order ordinary differential equations ✅
 Unit 2 Application of ordinary differential equations 
 Unit 3 Curve Tracing
-Unit 4 Tools of Integration
-Unit 5 Double, triple integration with applications
+Unit 4 Tools of Integration (tought topic and not done - DUIS and erf) ✔
+Unit 5 Double, triple integration with applications (tough topics - area bounded by curves)
 
 FCN
 Unit 1 Fundamentals of Computer Network 
@@ -11,8 +11,6 @@ Unit 2 Network topologies and Networking devices
 Unit 3 Transmission media ✅
 Unit 4 Network reference model and tcp ip fundamentals topics not done - (FTP, DHCP, SMTP , TELNET , HTTP , DNS)
 Unit 5 Ip addressing ✅ topics not done - (IPv6 numerical skipped)
-
-
 
 BML
 Unit 1 Introduction to machine learning ✅
@@ -22,7 +20,6 @@ Unit 4 Dimensionality Reduction Techniques ✅ (PCA numerical remaining)
 Unit 5 Ensemble techniques ✅ 
 
 DWDM
-
 Unit 1 Data warehouse basic concepts
 Unit 2 Data Understanding and Pre-processing
 Unit 3 Introduction to Data Mining ✅

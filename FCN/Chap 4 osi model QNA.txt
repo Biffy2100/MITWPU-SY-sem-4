@@ -23,18 +23,17 @@
 6. What is the difference between connection-oriented and connectionless communication? Give examples.
 7. Write short notes on:
    a) ARP
-   Address Resolution Protocol or ARP is a communication protocol used to find the MAC/ physical address of a device from its ip address.
-   This protocol is used when a device wants to communicate with another device on a LAN or ethernet.
+      Address Resolution Protocol or ARP is a communication protocol used to find the MAC/ physical address of a device from its ip address.
+      This protocol is used when a device wants to communicate with another device on a LAN or ethernet.
 
-Working of ARP:
-
-1. **Sender knows the IP address** of the device it wants to reach.
-2. **IP asks ARP** to find out the target's physical (MAC) address using its IP.
-3. **ARP creates a request** with the sender’s MAC, sender’s IP, and the target’s IP.
-4. **The request is sent as a broadcast** to all devices on the network.
-5. **All devices receive it**, but only the target device responds because it matches the IP.
-6. **The target sends back a reply** with its MAC address (as a unicast reply).
-7. **Sender gets the reply**, learns the target’s MAC, and now sends the actual data in a unicast frame.
+      Working of ARP:
+      1. **Sender knows the IP address** of the device it wants to reach.
+      2. **IP asks ARP** to find out the target's physical (MAC) address using its IP.
+      3. **ARP creates a request** with the sender’s MAC, sender’s IP, and the target’s IP.
+      4. **The request is sent as a broadcast** to all devices on the network.
+      5. **All devices receive it**, but only the target device responds because it matches the IP.
+      6. **The target sends back a reply** with its MAC address (as a unicast reply).
+      7. **Sender gets the reply**, learns the target’s MAC, and now sends the actual data in a unicast frame.
    
    b) DNS
    c) HTTP
