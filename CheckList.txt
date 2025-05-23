@@ -1,9 +1,10 @@
 Maths - 
 Unit 1 First order ordinary differential equations ✅
-Unit 2 Application of ordinary differential equations ✔ (revise fouriers law of heat conduction)
+Unit 2 Application of ordinary differential equations ✅️
 Unit 3 Curve Tracing (catesian done , parametric and polar remaining) ✔
-Unit 4 Tools of Integration (tough topic and not done - DUIS rule 1) ✔
-Unit 5 Double, triple integration with applications (tough topics - area bounded by curves, Triple Integration, Volume )
+Unit 4 Tools of Integration (tough topic and not done - DUIS rule 1) ✅️
+Unit 5 Double, triple integration with applications (tough topics - sphere and cylinder eqn) ✔️
+
 
 FCN
 Unit 1 Fundamentals of Computer Network 
