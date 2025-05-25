@@ -1,0 +1,96 @@
+Here's a **comprehensive descriptive question bank** covering all topics from **Chapter 1 – Fundamentals of Computer Network** based on the PDF you provided:
+
+---
+
+### **1. Introduction to Computer Networks**
+
+* What is a computer network? Explain its components and working.
+* Describe the major uses of computer networks.
+
+---
+
+### **2. Types of Computer Networks**
+
+* Define and compare PAN, LAN, CAN, MAN, and WAN with suitable examples.
+* Explain the advantages, disadvantages, and applications of:
+
+  * Personal Area Network (PAN)
+  * Local Area Network (LAN)
+  * Campus Area Network (CAN)
+  * Metropolitan Area Network (MAN)
+  * Wide Area Network (WAN)
+
+---
+
+### **3. Wireless Networking**
+
+* Define wireless networking. How does it differ from wired networking?
+* Describe the **working of a wireless network** with the role of access points and adapters.
+* List and explain at least five **examples** of wireless networking.
+* Write a note on **advantages** and **disadvantages** of wireless networking.
+* Explain the **applications** of wireless communication.
+
+---
+
+### **4. Advantages & Disadvantages of Computer Networks**
+
+* What are the advantages of computer networks in terms of storage, connectivity, and security?
+* Explain the major disadvantages of computer networks including cost, management, and vulnerability.
+
+---
+
+### **5. Social Issues Created by Computers**
+
+Explain the following social issues in detail:
+
+* Communication Breakdown
+* Defamation of Character
+* Identity Theft
+* Cyber Bullying
+* Gaming Addiction
+* Privacy Concerns
+* Health and Fitness Impacts
+* Education and Plagiarism
+* Terrorism and Crime
+* Sexuality and the internet
+
+---
+
+### **6. Wired vs Wireless Networking**
+
+* Differentiate between **wired** and **wireless** networking with suitable examples.
+* What are the physical mediums used in wired networks?
+* How does radio frequency work in wireless communication?
+
+---
+
+### **7. Classification by Architecture**
+
+* What is network architecture? Why is it important?
+* Distinguish between:
+
+  * Peer-to-Peer Architecture
+  * Client/Server Architecture
+
+---
+
+### **8. Peer-to-Peer Architecture**
+
+* What is a peer-to-peer (P2P) network? Describe with example.
+* Write the advantages and disadvantages of P2P architecture.
+
+---
+
+### **9. Client/Server Architecture**
+
+* Explain Client/Server architecture with a diagram or example.
+* Mention advantages and disadvantages of client/server architecture.
+* Compare Peer-to-Peer and Client/Server architectures.
+
+---
+
+### **10. Roles in Networking**
+
+* Who is a computer network architect? What are their responsibilities?
+* Compare the roles of a **Network Architect**, **Network Engineer**, and **Network Administrator**.
+

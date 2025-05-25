@@ -1,0 +1,132 @@
+Here is a **complete descriptive question bank** for **Chapter 2: Network Topologies and Networking Devices**, covering **every single topic** from your uploaded material:
+
+---
+
+### **1. Introduction to Network Topology**
+
+* What is a network topology? Explain the difference between physical and logical topology.
+* What are the factors to consider when selecting a topology for a network?
+
+---
+
+### **2. Types of Network Topologies**
+
+For each topology below, answer the following:
+
+* Define the topology and explain how it works.
+* What are its **advantages** and **disadvantages**?
+* Mention at least one real-world **application**.
+
+**a. Bus Topology**
+
+* Explain the working of bus topology.
+* Why is bus topology called a passive topology?
+
+**b. Ring Topology**
+
+* Describe the structure and working of a ring topology.
+* What is token passing? How does it work in ring topology?
+
+**c. Star Topology**
+
+* Describe how data is transmitted in star topology.
+* Why is star topology the most commonly used one?
+
+**d. Mesh Topology**
+
+* Explain fully connected mesh topology. Derive the formula for the number of links.
+* Why is mesh topology considered the most secure?
+
+**e. Tree Topology**
+
+* Explain the structure of tree topology and how it combines star and bus topologies.
+* What makes tree topology scalable?
+
+**f. Hybrid Topology**
+
+* What is hybrid topology? How does it integrate different topologies?
+* Why is hybrid topology suitable for ISPs or large organizations?
+
+---
+
+### **3. Network Control / Connecting Devices**
+
+* What is the need for network control and connecting devices?
+* Explain the classification of network devices into **passive and active devices**.
+• Passive & Active Hubs
+• Switches
+• Routers
+• Bridges
+• Repeaters
+• Gateways
+• Modems
+• Wireless infrastructure components
+• Network Security Devices ( firewalls , Proxy Server)
+
+
+### **4. Network Connecting Devices (Each of the following deserves individual descriptive answers)**
+
+* **Repeater**
+
+  * What is a repeater? At which OSI layer does it operate?
+  * Why is signal regeneration important?
+
+* **Hub (Passive, Active, Intelligent)**
+
+  * Compare passive, active, and intelligent hubs.
+  * Why is a hub called a multiport repeater?
+
+* **Bridge**
+
+  * What is a bridge? How is it different from a repeater or hub?
+  * What is the difference between static and dynamic bridges?
+
+* **Switch**
+
+  * Explain how a switch operates. How does it differ from a hub?
+  * Describe how switches help reduce collisions.
+
+* **Router**
+
+  * What is a router? How does it work across different layers of OSI?
+  * Compare static and dynamic routing tables.
+  * Explain flooding and filtering in routers.
+
+* **Modem**
+
+  * What is a modem? Explain the modulation and demodulation process.
+  * Why is a modem necessary for internet connection?
+
+* **Router vs Modem**
+
+  * Compare router and modem based on OSI layer, purpose, security, and placement.
+
+* **Gateway**
+
+  * What is a gateway? How does it act as a translator between networks?
+  * At how many OSI layers does a gateway operate?
+
+---
+
+### **5. Wireless Infrastructure Components**
+
+* What are wireless access points and how are they used?
+* Explain the role and function of:
+
+  * Wireless Router
+  * Wireless Gateway
+  * Wireless NIC
+  * Wireless LAN (WLAN)
+
+---
+
+### **6. Network Security Devices**
+
+* Define network security. Why is it important?
+* Write short notes on:
+
+  * **Firewall** – Types, function, and placement in the network.
+  * **Antivirus** – How it works and what threats it protects from.
+  * **Proxy Server** – Its working, advantages, and real-world uses.
+
+---

@@ -1,13 +1,14 @@
 ### 🔹 **Short Answer Questions**
+ALL PEOPLE SEEM TO NEED DATA PROCESSING
 
 1. What is a protocol? Explain its key elements: syntax, semantics, and timing.
 2. Define OSI model. Why is it important in networking?
 3. Mention any two differences between OSI and TCP/IP models.
-4. What are the functions of the Presentation Layer?
-5. Explain what is meant by Peer-to-Peer Process in OSI Model.
+4. What are the functions of the Presentation Layer?  
+5. Explain what is meant by Peer-to-Peer Process in OSI Model. (PDU diagram pg 9)
 6. What is the role of Transport Layer in OSI?
 7. Give two functions of the Session Layer.
-8. What is the purpose of the Network Layer?
+8. What is the purpose of the Network Layer? 
 9. Define segmentation and its need in the Transport Layer.
 10. Name any four protocols under TCP/IP model.
 
@@ -17,10 +18,47 @@
 
 1. Explain all **seven layers of the OSI model** with their respective protocols and functions.
 2. Compare the OSI and TCP/IP models in detail.
+
+| **Feature**                   | **OSI Model**                                                               | **TCP/IP Model**                                 |
+| ----------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Full Form**                 | Open Systems Interconnection                                                | Transmission Control Protocol/Internet Protocol  |
+| **Number of Layers**          | 7                                                                           | 4 (or sometimes considered 5)                    |
+| **Layers**                    | Application, Presentation, Session, Transport, Network, Data Link, Physical | Application, Transport, Internet, Network Access |
+| **Developed By**              | ISO (International Standards Organization)                                  | DARPA (U.S. Department of Defense)               |
+| **Function**                  | Conceptual model for understanding networks                                 | Practical model used in real networking          |
+| **Protocol Specification**    | Generic, does not specify protocols                                         | Specific protocols are defined (TCP, IP, etc.)   |
+| **Usage**                     | Mostly for teaching and reference                                           | Used in real-world internet communication        |
+| **Layer Separation**          | Strict and clear separation                                                 | Loose and overlapping layers                     |
+| **Model Type**                | Theoretical                                                                 | Practical/Implementation-based                   |
+| **Transport Layer Protocols** | TCP, UDP, etc. (as examples)                                                | TCP, UDP                                         |
+
 3. Describe the layered structure of the TCP/IP reference model.
 4. Explain the working and importance of **Transport Layer** with focus on flow control and error control.
 5. Describe the role and functions of the **Presentation Layer** with examples like translation, compression, and encryption.
 6. What is the difference between connection-oriented and connectionless communication? Give examples.
+
+| **Feature**           | **Connection-Oriented Communication**         | **Connectionless Communication**             |
+| --------------------- | --------------------------------------------- | -------------------------------------------- |
+| **Definition**        | Establishes a connection before data transfer | Sends data without establishing a connection |
+| **Setup**             | Required (handshake process)                  | Not required                                 |
+| **Reliability**       | Reliable (ensures delivery, error checking)   | Unreliable (no guarantee of delivery)        |
+| **Overhead**          | Higher (due to connection setup and tracking) | Lower (no setup or tracking)                 |
+| **Speed**             | Slower due to setup and acknowledgment        | Faster due to no connection overhead         |
+| **Example Protocols** | TCP (Transmission Control Protocol)           | UDP (User Datagram Protocol)                 |
+| **Use Cases**         | File transfer, web browsing, emails           | Live video/audio streaming, online gaming    |
+
+### **Examples:**
+
+* **Connection-Oriented**:
+
+  * Browsing a website (HTTP over TCP)
+  * Sending emails (SMTP over TCP)
+
+* **Connectionless**:
+
+  * Watching a live stream (uses UDP)
+  * Voice over IP (VoIP)
+
 7. Write short notes on:
    a) ARP
       Address Resolution Protocol or ARP is a communication protocol used to find the MAC/ physical address of a device from its ip address.
