@@ -158,14 +158,15 @@ PCA helps simplify complex datasets while **retaining maximum useful information
 
 
 12. Differentiate between PCA and LDA.
+| **Feature**          | **PCA (Principal Component Analysis)**                                      | **LDA (Linear Discriminant Analysis)**                                 |
+| -------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **1. Purpose**       | Reduces dimensions by keeping directions with most variance.                | Reduces dimensions by keeping directions that best separate classes.   |
+| **2. Supervision**   | Unsupervised – doesn’t use class labels.                                    | Supervised – uses class labels to guide the reduction.                 |
+| **3. Feature Limit** | Can reduce to any number of components (up to number of original features). | Can reduce to at most (C – 1) components, where C = number of classes. |
+| **4. Focus**         | Focuses on overall data spread (variance).                                  | Focuses on class separation.                                           |
+| **5. Use Cases**     | Used for compression, visualization, and noise removal.                     | Used for classification tasks like face or document recognition.       |
 
-| Aspect                  | **PCA (Principal Component Analysis)**                     | **LDA (Linear Discriminant Analysis)**                         |
-| ----------------------- | ---------------------------------------------------------- | -------------------------------------------------------------- |
-| **Type**                | Unsupervised technique                                     | Supervised technique                                           |
-| **Objective**           | Maximizes **variance** in the data                         | Maximizes **class separability**                               |
-| **Input Consideration** | Does **not use class labels**                              | Uses **class labels**                                          |
-| **Feature Limit**       | Can produce up to **n** components (n = original features) | Can produce up to **C – 1** components (C = number of classes) |
-| **Use Case**            | Data compression, visualization                            | Classification problems                                        |
+Let me know if you want a one-line difference summary too.
 
 ✅ In short:
 
