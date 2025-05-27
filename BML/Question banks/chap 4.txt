@@ -28,7 +28,7 @@ Dimensionality Reduction Techniques
 
 4. Mention any three disadvantages of dimensionality reduction.
         1. ❌ Loss of Information
-             Important data may be discarded, which can reduce model accuracy.
+            Important data may be discarded, which can reduce model accuracy.
 
         2. ❌ Reduced Interpretability
          New features (like principal components) are often abstract and hard to understand.
@@ -221,8 +221,7 @@ Explain KPCA
 
 ### 🔹 **True/False / MCQ Style**
 
-18. Dimensionality reduction increases overfitting. (True/False)
-FALSE
+18. Dimensionality reduction increases overfitting. (True/False) - FALSE
 19. LASSO is an example of which type of feature selection method?
 
     * a) Filter

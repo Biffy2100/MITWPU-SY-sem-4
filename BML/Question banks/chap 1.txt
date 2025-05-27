@@ -93,9 +93,7 @@ Here's a **question bank for BML Chapter 1 – Introduction to Machine Learning*
 | **Examples**        | Chatbots, autonomous vehicles, expert systems, robotics, natural language processing                         | Spam filters, recommendation systems, image recognition, fraud detection                                                            |
 | **Goals**           | To simulate human intelligence and behavior.                                                                 | To enable systems to automatically learn and improve from experience.                                                               |
 
-Let me know if you'd like this in a PDF or visual format!
 
 2. Why is ML considered a subset of AI?
-
 ---
 
