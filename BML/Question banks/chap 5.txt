@@ -1,0 +1,134 @@
+Here's a **question bank for BML Unit 5: Ensemble Learning**, based on the PDF you shared:
+
+---
+
+## 🧠 **BML Unit 5 – Question Bank**
+
+### **1. Conceptual Questions**
+
+1. What is ensemble learning? Explain with an example.
+2. Why is ensemble learning used in machine learning?
+3. What are the advantages and disadvantages of ensemble learning?
+4. Differentiate between:
+
+   Homogenous and Heterogenous Ensemble methods
+   Hard voting and Soft voting
+
+5. What is bias-variance trade-off? How does ensemble learning help?
+### ✅ 5. What is **Bias-Variance Trade-off**? How Does **Ensemble Learning** Help?
+
+---
+
+### 🎯 **Bias-Variance Trade-off:**
+
+This is a key concept in machine learning that explains the balance between **underfitting** and **overfitting**.
+
+#### 📉 **Bias**
+
+* Bias is the error due to overly **simple assumptions** in the learning algorithm.
+* **High bias** → model misses important patterns (→ **underfitting**).
+
+#### 📈 **Variance**
+
+* Variance is the error due to the model being too **sensitive to small changes** in the training data.
+* **High variance** → model captures noise (→ **overfitting**).
+
+#### 🧠 **Trade-off:**
+
+* We want a model that’s **not too simple** (low bias) and **not too complex** (low variance).
+* It's a balance:
+
+  * **High bias, low variance** → underfitting.
+  * **Low bias, high variance** → overfitting.
+  * ✅ **Ideal**: low bias **and** low variance (but it’s hard!).
+
+---
+
+### 🤝 **How Does Ensemble Learning Help?**
+
+Ensemble learning **combines multiple models** to improve accuracy. It helps balance bias and variance:
+
+#### 1. **Reduces Variance (Bagging)**
+
+* Method like **Random Forest** (uses Bagging) combines many **high-variance** models (like decision trees).
+* Averaging their predictions **reduces variance** → **less overfitting**.
+
+#### 2. **Reduces Bias (Boosting)**
+
+* Method like **AdaBoost** or **Gradient Boosting** combines many **weak models** to create a **strong model**.
+* Each new model fixes the errors of the previous one → **reduces bias** → **less underfitting**.
+
+---
+
+### 🧪 Summary Table
+
+| Term         | Meaning                             | Ensemble Method That Helps     |
+| ------------ | ----------------------------------- | ------------------------------ |
+| **Bias**     | Error from too simple models        | ✅ Boosting                     |
+| **Variance** | Error from too sensitive models     | ✅ Bagging (like Random Forest) |
+| **Goal**     | Balance both for better performance | ✅ Ensemble Learning            |
+
+---
+
+Would you like a diagram or analogy (like a team of students solving a quiz) to visualize it better?
+
+---
+
+### **2. Bagging**
+
+1. What is bagging in machine learning?
+2. Explain the step-wise working of the bagging algorithm.
+3. What is the purpose of bootstrapping in bagging?
+4. How does Random Forest use bagging?
+5. List the advantages and disadvantages of bagging.
+
+---
+
+### **3. Boosting**
+
+1. What is boosting and how does it differ from bagging?
+2. Explain the step-by-step working of a boosting algorithm.
+3. What are the advantages and disadvantages of boosting?
+4. How does boosting reduce bias and variance?
+5. What is Adaboost? Explain how it works with an example.
+6. What is the role of voting power in Adaboost?
+7. What is Gradient Boosting Machine (GBM)? How does it differ from Adaboost?
+
+---
+
+### **4. Stacking**
+
+1. What is stacking? How does it work?
+2. Explain the role of a meta-learner in stacking.
+3. How does stacking differ from bagging and boosting?
+4. List the advantages and disadvantages of stacking.
+5. Explain stacking with a real-life example.
+
+---
+
+### **5. Voting Classifiers**
+
+1. What is a voting classifier?
+2. Explain the difference between hard voting and soft voting with examples.
+3. When should you use hard voting? When should you use soft voting?
+4. What are the benefits of using voting classifiers?
+
+---
+
+### **6. Comparative Questions**
+
+1. Compare bagging, boosting, and stacking based on:
+
+   * Working mechanism
+   * Model combination strategy
+   * Error reduction focus (bias/variance)
+   * Parallel or sequential nature
+2. Which ensemble method would you prefer for:
+
+   * Small noisy dataset?
+   * Large complex dataset with diverse features?
+   * High-bias models?
+
+---
+
+Would you like me to generate this in a PDF format styled for handwritten revision, or keep it as-is in text?
