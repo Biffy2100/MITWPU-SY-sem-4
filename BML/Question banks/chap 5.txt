@@ -1,7 +1,3 @@
-Here's a **question bank for BML Unit 5: Ensemble Learning**, based on the PDF you shared:
-
----
-
 ## 🧠 **BML Unit 5 – Question Bank**
 
 ### **1. Conceptual Questions**
@@ -82,6 +78,9 @@ Would you like a diagram or analogy (like a team of students solving a quiz) to 
 4. How does Random Forest use bagging?
 5. List the advantages and disadvantages of bagging.
 
+
+
+
 ---
 
 ### **3. Boosting**
@@ -93,6 +92,29 @@ Would you like a diagram or analogy (like a team of students solving a quiz) to 
 5. What is Adaboost? Explain how it works with an example.
 6. What is the role of voting power in Adaboost?
 7. What is Gradient Boosting Machine (GBM)? How does it differ from Adaboost?
+
+### 🔍 Here’s how it works:
+
+* **Boosting uses the full dataset** in every round (unlike Bagging, which uses random subsets).
+* But it **adjusts the weight of each sample** based on how difficult it is to classify:
+
+  * Misclassified samples get **higher weights**.
+  * Correctly classified samples get **lower weights**.
+* This way, the next model **focuses more on the hard (previously misclassified) samples**.
+
+---
+
+### 🧠 Summary:
+
+| Aspect         | Boosting                        |
+| -------------- | ------------------------------- |
+| Data subset    | Uses **entire dataset**         |
+| Sample weights | **Updated** in each round       |
+| Focus          | On **hard-to-classify** samples |
+
+So while the dataset doesn't change, the **importance of the samples changes** each time.
+
+Let me know if you want a visual example to explain this!
 
 ---
 
@@ -118,11 +140,32 @@ Would you like a diagram or analogy (like a team of students solving a quiz) to 
 ### **6. Comparative Questions**
 
 1. Compare bagging, boosting, and stacking based on:
+Great! Here's a **complete 3-way comparison** of **Bagging, Boosting, and Stacking** — perfect for a **5-mark exam** answer:
 
-   * Working mechanism
-   * Model combination strategy
-   * Error reduction focus (bias/variance)
-   * Parallel or sequential nature
+---
+
+### 🧠 **Ensemble Methods: Bagging vs Boosting vs Stacking**
+
+| Feature                | **Bagging**                              | **Boosting**                                      | **Stacking**                                          |
+| ---------------------- | ---------------------------------------- | ------------------------------------------------- | ----------------------------------------------------- |
+| **Main Goal**          | Reduce **variance**                      | Reduce **bias** (and variance)                    | Improve **accuracy** by combining diverse models      |
+| **Model Training**     | **Parallel** (independent models)        | **Sequential** (each model fixes previous errors) | **Parallel**, then a **meta-model** combines outputs  |
+| **Data Sampling**      | **Bootstrap samples** (with replacement) | Uses **full data**, reweighted for hard examples  | Uses **full dataset**, splits for training/meta-model |
+| **Focus**              | All models get equal importance          | More focus on **misclassified** data              | Learns how to best **combine different models**       |
+| **Overfitting Risk**   | Lower (especially with decision trees)   | Higher (if not regularized)                       | Depends on base/meta-models used                      |
+| **Common Models Used** | Random Forest                            | AdaBoost, Gradient Boosting                       | Any models (e.g., SVM + Tree + Logistic Regression)   |
+| **Final Prediction**   | **Voting or averaging** of base models   | **Weighted sum** of all models                    | **Meta-model** predicts based on base model outputs   |
+
+---
+
+### 📝 Summary:
+
+* **Bagging**: Reduces variance using voting over many models (e.g., Random Forest).
+* **Boosting**: Reduces bias by correcting mistakes sequentially (e.g., AdaBoost).
+* **Stacking**: Combines predictions from multiple diverse models using a meta-model.
+
+---
+   
 2. Which ensemble method would you prefer for:
 
    * Small noisy dataset?
@@ -130,5 +173,3 @@ Would you like a diagram or analogy (like a team of students solving a quiz) to 
    * High-bias models?
 
 ---
-
-Would you like me to generate this in a PDF format styled for handwritten revision, or keep it as-is in text?

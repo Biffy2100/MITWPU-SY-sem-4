@@ -1,9 +1,12 @@
 Dimensionality Reduction Techniques
 
 1. What is dimensionality reduction? Why is it important in machine learning?
-    Dimensionality reduction is the process of reducing the number of features or variables in a dataset while retaining its essential characteristics. 
-    It is important in machine learning because it helps to reduce overfitting, improve model performance, and decrease computational costs. 
-    By eliminating irrelevant or redundant features, dimensionality reduction can lead to simpler models that generalize better to unseen data.
+    Dimensionality reduction is the process of reducing the 
+    number of features or variables in a dataset while retaining its essential characteristics. 
+    It is important in machine learning because it helps to reduce overfitting, 
+    improve model performance, and decrease computational costs. 
+    By eliminating irrelevant or redundant features, dimensionality reduction 
+    can lead to simpler models that generalize better to unseen data.
 
 2. Explain the term "curse of dimensionality" with an example.
         The curse of dimensionality refers to the problem that arises when working with data in high-dimensional spaces.
@@ -205,7 +208,7 @@ PCA helps simplify complex datasets while **retaining maximum useful information
 
 Explain LDA 
 Explain LRA (Low rank approximation)
-
+Explain KPCA
 
 ### 🔹 **Application/Use-Case Based**
 

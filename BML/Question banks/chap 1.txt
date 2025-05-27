@@ -1,0 +1,101 @@
+Here's a **question bank for BML Chapter 1 – Introduction to Machine Learning**, based on the PDF you uploaded:
+
+---
+
+## 🧠 **BML Chapter 1 – Question Bank**
+
+### **1. Basics of Machine Learning**
+
+1. Define Machine Learning (ML). How is it different from traditional programming?
+2. What are the key features of machine learning?
+3. Explain how ML models improve with data exposure.
+4. Why is machine learning considered a branch of Artificial Intelligence?
+
+---
+
+### **2. Types of Machine Learning**
+
+1. Differentiate between:
+
+   * Supervised, Unsupervised, and Reinforcement Learning
+   * Give one algorithm and one real-life application for each
+2. What are the characteristics of reinforcement learning?
+3. What is the role of labeled and unlabeled data in ML?
+
+---
+
+### **3. Data in Machine Learning**
+
+1. Why is data important for machine learning?
+2. Describe the key properties of good ML data (e.g., volume, veracity, viability).
+3. Explain types of data:
+
+   * Structured, Unstructured, Semi-Structured
+   * Numerical, Categorical, Ordinal
+4. What is the process of splitting data in ML? Why is it important?
+5. What are the challenges of using data in ML?
+
+---
+
+### **4. Applications of Machine Learning**
+
+1. List at least **five major applications** of ML with examples.
+2. How is ML used in:
+
+   * Healthcare
+   * Self-driving cars
+   * Recommendation systems
+   * Fraud detection
+
+---
+
+### **5. ML Libraries**
+
+1. Name and explain the purpose of the following libraries:
+
+   * NumPy
+   * Pandas
+   * Matplotlib
+   * SciPy
+   * Scikit-learn
+   * TensorFlow
+   * Keras
+   * Theano
+2. Which libraries are used for data visualization?
+3. Which ones are best suited for deep learning?
+
+---
+
+### **6. Artificial Intelligence Overview**
+
+1. Define Artificial Intelligence (AI). How is it related to ML?
+2. What are AI agents? List and define each type:
+
+   * Simple Reflex
+   * Model-based Reflex
+   * Goal-based
+   * Utility-based
+   * Learning agents
+3. Give examples of AI agents in real life.
+4. Describe how a thermostat functions as a simple AI agent.
+
+---
+
+### **7. Difference Between AI and ML**
+
+1. Compare AI and ML based on:
+
+| **Criteria**        | **Artificial Intelligence (AI)**                                                                             | **Machine Learning (ML)**                                                                                                           |
+| ------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Definition**      | AI is the broader concept of machines being able to carry out tasks in a way that mimics human intelligence. | ML is a subset of AI that focuses on enabling systems to learn from data and improve over time without being explicitly programmed. |
+| **Scope**           | Broad – includes reasoning, problem-solving, perception, planning, language understanding, etc.              | Narrower – limited to learning from data and making predictions or decisions based on that data.                                    |
+| **Data Dependency** | May or may not rely heavily on data. Rule-based systems are possible without large datasets.                 | Highly data-dependent – requires large amounts of quality data for training models.                                                 |
+| **Examples**        | Chatbots, autonomous vehicles, expert systems, robotics, natural language processing                         | Spam filters, recommendation systems, image recognition, fraud detection                                                            |
+| **Goals**           | To simulate human intelligence and behavior.                                                                 | To enable systems to automatically learn and improve from experience.                                                               |
+
+Let me know if you'd like this in a PDF or visual format!
+
+2. Why is ML considered a subset of AI?
+
+---
+

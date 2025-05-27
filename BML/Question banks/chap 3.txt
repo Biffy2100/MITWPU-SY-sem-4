@@ -1,0 +1,61 @@
+Here's a comprehensive **question bank** based on the contents of your uploaded file (Chapter 3: Unsupervised Learning from your ML notes). The questions are divided into **theoretical**, **short answer**, and **numerical/problem-solving** sections for better coverage and preparation.
+
+---
+
+### 🔹 **A. Theoretical Questions**
+
+1. Define unsupervised learning. How is it different from supervised learning?
+2. Explain the importance of unsupervised learning in real-world applications.
+3. Describe the working of unsupervised learning with the help of a diagram.
+4. Differentiate between clustering and association in unsupervised learning.
+5. List and briefly describe any five unsupervised learning algorithms.
+6. Compare supervised and unsupervised learning (at least 5 points).
+7. What is clustering in machine learning? Give a real-life example.
+8. Describe applications of clustering techniques.
+9. Explain different types of clustering methods.
+10. What is the difference between hard clustering and soft clustering?
+
+---
+
+### 🔹 **B. Conceptual/Short Answer Questions**
+
+1. Why is unsupervised learning considered closer to true AI?
+2. Name two real-world problems that can be solved using clustering.
+3. State the advantages and disadvantages of unsupervised learning.
+4. What are the key features of the K-means algorithm?
+5. Explain the elbow method in determining the value of 'K'.
+6. Define WCSS and its significance in K-means.
+7. What is the main objective of the K-means algorithm?
+8. Why is initialization important in K-means clustering?
+9. What is a centroid in the context of K-means?
+10. Define Euclidean distance and write its formula.
+11. What is the Random Initialization Trap in K-means?
+
+---
+
+### 🔹 **C. Numerical / Problem-Solving Questions**
+
+1. Apply the K-means algorithm (K=2) for two iterations on the following data:
+
+   * (185, 72), (170, 56), (168, 60), (179,68), (182,72), (188,77)
+   * Use the first two points as initial centroids.
+
+2. Given a dataset of color brightness and saturation values, apply KNN (K=5) and classify a new data point (20, 35). Show distance calculations.
+
+3. Use the elbow method to find the optimal K value. You’re given WCSS values for K=1 to K=10 — draw the graph and mark the elbow.
+
+4. Given a set of items bought together (Market Basket Data), identify association rules using the Apriori algorithm (just conceptual — no coding).
+
+5. You are given a random initial centroid in K-means. Show how different initializations can lead to different final clusters (Random Initialization Trap).
+
+---
+
+### 🔹 **D. Application-Based / HOTS (Higher Order Thinking Skills)**
+
+1. How would you apply clustering to customer segmentation in e-commerce?
+2. How does Netflix use clustering techniques to enhance user experience?
+3. Imagine you're working with a large social network. How can unsupervised learning help in community detection?
+4. Suggest how KNN can be used in a medical diagnosis system.
+5. Explain how anomaly detection works using unsupervised learning techniques.
+
+---
