@@ -1,0 +1,77 @@
+Here's a **question bank for BML Unit 2: Supervised Learning**, based on the document you uploaded:
+
+---
+
+## 🧠 **BML Unit 2 – Question Bank**
+
+### **1. Conceptual Questions**
+
+1. Define Supervised Learning with an example.
+2. What are the main steps involved in the working of a supervised learning model?
+3. Differentiate between training data and testing data.
+4. Explain the role of labelled data in supervised learning.
+5. What is the purpose of model evaluation metrics in supervised learning?
+
+---
+
+### **2. Classification**
+
+1. Define classification. What is its goal?
+2. Differentiate between:
+
+   * Binary Classification vs Multi-class Classification
+   * Multi-class vs Multi-label Classification
+3. Explain One-vs-One and One-vs-Rest approaches with examples.
+4. What is an imbalanced classification problem? How can it be handled?
+5. Write short notes on:
+
+   * Confusion Matrix
+   * Precision and Recall
+   * F1 Score
+
+---
+
+### **3. Algorithms – Short Answer**
+
+1. Explain the working of a **Decision Tree** with key terms: entropy and information gain.
+2. What are the advantages and disadvantages of Decision Trees?
+3. Define Support Vector Machine (SVM) and explain hyperplane, support vectors, and margin.
+4. Explain the role of kernels in SVM. List different kernel functions.
+5. What is the difference between linear and non-linear SVM?
+
+---
+
+### **4. Classification Algorithms**
+
+1. Explain the working of the **Random Forest** algorithm.
+2. Why is Random Forest better than a single decision tree?
+3. Describe the working and assumptions of **Naive Bayes**.
+4. Differentiate between Gaussian, Multinomial and Bernoulli Naive Bayes.
+5. How does **K-Nearest Neighbours (KNN)** classify data? What is the importance of K?
+6. List advantages and disadvantages of KNN.
+
+---
+
+### **5. Logistic Regression**
+
+1. What is Logistic Regression used for?
+2. Explain the role of the sigmoid function.
+3. How does logistic regression work? (Stepwise)
+4. Define log loss and gradient descent.
+5. Differentiate between:
+
+   * Binary, Multinomial, and Ordinal Logistic Regression
+
+---
+
+### **6. Regression Section**
+
+1. Define regression in supervised learning.
+2. Explain the working of **Linear Regression** with formula.
+3. What are the types of regression techniques?
+4. List advantages and disadvantages of Linear Regression.
+5. How is regression different from classification?
+
+---
+
+Would you like a handwritten-style printable PDF of this question bank or a version for writing in your notebook?
