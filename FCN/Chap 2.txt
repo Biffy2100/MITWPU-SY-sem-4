@@ -1,6 +1,4 @@
-Here is a **complete descriptive question bank** for **Chapter 2: Network Topologies and Networking Devices**, covering **every single topic** from your uploaded material:
-
----
+**Chapter 2: Network Topologies and Networking Devices**
 
 ### **1. Introduction to Network Topology**
 
