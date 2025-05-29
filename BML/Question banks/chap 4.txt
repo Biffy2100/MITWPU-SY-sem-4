@@ -210,6 +210,44 @@ Let me know if you want a one-line difference summary too.
 Explain LDA 
 Explain LRA (Low rank approximation)
 Explain KPCA
+Here's a **concise 5-mark explanation** of **KPCA**, **LDA**, and **LRA**:
+
+---
+
+### 1. **KPCA (Kernel Principal Component Analysis)**
+
+* **Definition**: An extension of PCA that uses kernel functions to perform dimensionality reduction in a **non-linear** fashion.
+* **How it works**: It maps data to a higher-dimensional space using a kernel (e.g., RBF), then performs PCA in that space.
+* **Use case**: Best for datasets where linear PCA fails, such as image recognition or pattern classification with complex boundaries.
+
+---
+
+### 2. **LDA (Linear Discriminant Analysis)**
+
+* **Definition**: A **supervised** dimensionality reduction technique that projects data to maximize class separability.
+* **How it works**: It finds the linear combinations of features that best separate two or more classes.
+* **Use case**: Commonly used in face recognition, text classification, and when class labels are known.
+
+---
+
+### 3. **LRA (Low-Rank Approximation)**
+
+* **Definition**: A method to approximate a high-dimensional matrix with a lower-rank matrix, capturing most of the important information.
+* **How it works**: Uses techniques like **Singular Value Decomposition (SVD)** to reduce dimensionality while preserving data structure.
+* **Use case**: Used in image compression, recommendation systems, and noise reduction.
+
+---
+
+### Summary Table:
+
+| Technique | Type         | Key Feature                         | Use Case                         |
+| --------- | ------------ | ----------------------------------- | -------------------------------- |
+| KPCA      | Unsupervised | Non-linear dimensionality reduction | Pattern recognition              |
+| LDA       | Supervised   | Maximizes class separability        | Classification, face recognition |
+| LRA       | Unsupervised | Matrix approximation                | Compression, recommender systems |
+
+Let me know if you want diagrams or math formulas too.
+
 
 ### 🔹 **Application/Use-Case Based**
 

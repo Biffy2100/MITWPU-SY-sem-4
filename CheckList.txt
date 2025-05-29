@@ -1,11 +1,3 @@
-BML
-Unit 1 Introduction to machine learning ✅✅
-Unit 2 Supervised Learning till classification done ✅
-Unit 3 Unsupervised Learning ✅✅
-Unit 4 Dimensionality Reduction Techniques  (PCA numerical remaining)✅
-Unit 5 Ensemble techniques ✅✅
-
-
 DWDM
 Unit 1 Data warehouse basic concepts
 Unit 2 Data Understanding and Pre-processing

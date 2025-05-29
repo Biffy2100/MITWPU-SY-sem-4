@@ -6,7 +6,6 @@
 6. What are the characteristics of OLAP? Explain OLAP Tools.
 7. Explain OLAP Data Modelling and the role of OLAP Tools on the Internet.
 8. What is the difference between OLAP and OLTP?
-
 9. What is the knowledge discovery process?
 10. What are attributes and their types (nominal, binary, ordinal, etc.)?
 11. What are some data visualization techniques?
@@ -14,19 +13,16 @@
 13. What are the tasks involved in Data Cleaning?
 14. List some data mining tools.
 15. What is the difference between data mining and machine learning?
-
 16. What is data mining?
 17. Explain Decision Trees: Introduction, Types, Advantages, and Disadvantages.
 18. What are the types of sources of data in Data Mining?
 19. What are the different Data Mining Techniques?
 20. Provide examples of Data Mining applications.
-
 21. What is probability and statistics? Elaborate with examples.
 22. What is Classification? Explain Bayes Classification Methods.
 23. Explain Naïve Bayesian Classification with an example.
 24. Explain Rule-Based Classification using IF-THEN Rules for Classification.
 25. Explain the Naïve Bayesian equation to calculate the posterior probability for each class, with a given data problem.
-
 26. What is Market Basket Analysis? Explain with an example.
 27. Explain the following terms:
     i) Frequent Itemsets
