@@ -1,6 +1,29 @@
 1. What is a Data Warehouse?
-2. What are the differences between Operational Database Systems and Data Warehouses? Why is there a need for a Data Warehouse?
+A single, complete and consistent store of data obtained from a 
+variety of different sources made available to end users in a what they can understand and use in a business context.
+
+2. What are the differences between Operational Database Systems and Data Warehouses? 
+
+Why is there a need for a Data Warehouse?
+
+    1. **Integrated Data Source**:
+   It combines data from multiple heterogeneous sources (e.g., databases, flat files) into a single unified format for better analysis.
+
+    2. **Improved Query Performance**:
+   Optimized for complex queries and data analysis without affecting the performance of operational systems.
+
+    3. **Historical Data Storage**:
+   Stores large volumes of historical data, enabling trend analysis and long-term strategic decision-making.
+
+    4. **Data Consistency and Quality**:
+   Ensures consistent, cleaned, and validated data, which improves the accuracy of business intelligence reports.
+
+    5. **Supports Business Intelligence**:
+   Facilitates reporting, data mining, and OLAP (Online Analytical Processing) to support better business decisions.
+
+
 3. Explain Data Warehousing: A Multi-tier Architecture.
+    Explain data warehouse architecture (normal)
 4. What are the Data Warehouse Models? Explain Enterprise Warehouse, Data Mart, and Virtual Warehouse.
 5. What is Online Analytical Processing (OLAP)?
 6. What are the characteristics of OLAP? Explain OLAP Tools.
