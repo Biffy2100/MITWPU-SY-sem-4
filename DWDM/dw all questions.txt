@@ -36,6 +36,29 @@ Why is there a need for a Data Warehouse?
 13. What are the tasks involved in Data Cleaning?
 14. List some data mining tools.
 15. What is the difference between data mining and machine learning?
+
+Here’s a **simplified and clearer comparison** of **Data Mining vs Machine Learning** in a way that's easy to remember and write in exams:
+
+---
+
+### 📊 **Data Mining vs Machine Learning**
+
+| **Factor**            | **Data Mining**                                              | **Machine Learning**                                        |
+| --------------------- | ------------------------------------------------------------ | ----------------------------------------------------------- |
+| **Origin**            | Came from database systems and statistics.                   | Came from Artificial Intelligence (AI).                     |
+| **Meaning**           | Finding hidden patterns or useful info from large datasets.  | Making computers learn from data and improve automatically. |
+| **History**           | Known as KDD (Knowledge Discovery in Databases) since 1930s. | Started with Samuel's game program in 1950s.                |
+| **Purpose**           | Extracts rules and patterns from existing data.              | Learns patterns and makes predictions or decisions.         |
+| **Data Use**          | Works with structured data from databases.                   | Works with both structured and unstructured data.           |
+| **Human Involvement** | Requires more manual effort and domain knowledge.            | Mostly automated once the model is trained.                 |
+| **Techniques Used**   | Uses statistical tools, clustering, classification, etc.     | Uses algorithms like decision trees, neural networks, etc.  |
+| **Applications**      | Used in market basket analysis, fraud detection, etc.        | Used in self-driving cars, spam filtering, recommendations. |
+| **Data Size**         | Can work with small or medium datasets.                      | Needs large datasets for better accuracy.                   |
+| **Scope**             | Limited use in specific domains.                             | Broader use in AI, robotics, healthcare, etc.               |
+
+---
+
+
 16. What is data mining?
 17. Explain Decision Trees: Introduction, Types, Advantages, and Disadvantages.
 18. What are the types of sources of data in Data Mining?
@@ -52,11 +75,8 @@ Why is there a need for a Data Warehouse?
     ii) Closed Itemsets
     iii) Association Rules
 28. Explain Association Rule Mining with an example.
+
 29. Explain the use cases of (MBA market basket analysis)
-Here’s a list of **use-cases** where **Market Basket Analysis (MBA)** can be applied to gain business or operational insights:
-
----
-
 ### 🔹 1. **Retail & Credit Card Transactions**
 
 * **Example:** Hotel + rental car = likelihood of flight purchase.
