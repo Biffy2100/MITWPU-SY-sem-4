@@ -37,9 +37,6 @@ Why is there a need for a Data Warehouse?
 14. List some data mining tools.
 15. What is the difference between data mining and machine learning?
 
-Here’s a **simplified and clearer comparison** of **Data Mining vs Machine Learning** in a way that's easy to remember and write in exams:
-
----
 
 ### 📊 **Data Mining vs Machine Learning**
 
@@ -56,10 +53,9 @@ Here’s a **simplified and clearer comparison** of **Data Mining vs Machine Lea
 | **Data Size**         | Can work with small or medium datasets.                      | Needs large datasets for better accuracy.                   |
 | **Scope**             | Limited use in specific domains.                             | Broader use in AI, robotics, healthcare, etc.               |
 
----
 
 
-16. What is data mining?
+16. What is data mining? 
 17. Explain Decision Trees: Introduction, Types, Advantages, and Disadvantages.
 18. What are the types of sources of data in Data Mining?
 19. What are the different Data Mining Techniques?
